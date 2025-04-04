@@ -1,0 +1,56 @@
+header {
+    background-color: #FFFBEE;
+    color: #FD6A8A;
+    font-size: 150%;
+    padding: 1px;
+    text-align: center;
+}
+
+nav {
+    background-color:#FD6A8A;
+    font-size: 110%;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+
+nav a:hover {
+    background-color: #F6A9FF
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* For big background */
+body {
+    margin: 0;
+}
+
+main {
+    background-color: #FFDECC;
+    font-size: 110%;
+    padding: 5px;
+}
+
+main p {
+    font-size: 110%;
+    background-color: #FFFBEE;
+    padding: 3px;
+}
+
+main a {
+    color: #FD6A8A 
+}
+
+footer {
+    background-color:#FD6A8A;
+    font-size: 110%;
+    padding: 5px;
+    color: #FFFBEE
+}
