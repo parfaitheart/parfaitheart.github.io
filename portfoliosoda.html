@@ -34,35 +34,99 @@
 
   <p> In Photoshop, I have worked on restoring and editing photographs, digital painting, illustration, animation, and cinemographing. I've used various tools including the magic wand and clone stamp tools, as well as knowing the shortcuts for many of them. I plan on using Photoshop in the future for photo editing, illustration, and digital painting. </p>
 
+<head>
+
+  <STYLE>
+    body {
+      /* for illustration only*/
+      margin: 0 auto;
+      /* center */
+      margin-top: 200px;
+      max-width: 640px;
+    }
+    /* below taken from https://stackoverflow.com/a/56401601/765271*/
+    
+    .click-zoom input[type=checkbox] {
+      display: none
+    }
+    
+    .click-zoom img {
+      transition: transform 0.25s ease;
+      cursor: zoom-in
+    }
+    
+    .click-zoom input[type=checkbox]:checked~img {
+      transform: scale(2);
+      cursor: zoom-out
+    }
+  </STYLE>
+</head>
+
+  <div class='click-zoom'>
+    <label>
+      <input type='checkbox' />
+          <img src="noname.png" width="200">
+  </label>
+  </div>
+
+  <div class='click-zoom'>
+    <label>
+      <input type='checkbox' />
+          <img src="sillybird.png" width="200">
+  </label>
+  </div>
+
+  <div class='click-zoom'>
+    <label>
+      <input type='checkbox' />
+          <img src="animgif.gif" width="200">
+  </label>
+  </div>
+
+  <div class='click-zoom'>
+    <label>
+      <input type='checkbox' />
+          <img src="number.png" width="200">
+  </label>
+  </div>
+
+  <div class='click-zoom'>
+    <label>
+      <input type='checkbox' />
+          <img src="sillybird.png" width="200">
+  </label>
+  </div>
+
+  <div class='click-zoom'>
+    <label>
+      <input type='checkbox' />
+          <img src="judith2.png" width="200">
+  </label>
+  </div>
+
+  <div class='click-zoom'>
+    <label>
+      <input type='checkbox' />
+          <img src="multiexpose.jpg" width="200">
+  </label>
+  </div>
+
+  <div class='click-zoom'>
+    <label>
+      <input type='checkbox' />
+          <img src="restore.png" width="200">
+  </label>
+  </div>
+
 <div class="immain"
 <div class="row">
   <div class="column">
-    <img src="noname.png" class="center">
-    <img src="sillybird.png" class="center">
-    <img src="animgif.gif" class="center">
 <video controls>
   <source src="rotoscope.mp4" type="video/mp4" class="center">
 </video>
 <video controls>
-  <source src="graph.mp4" type="video/mp4" class="center">
+  <source src="cinemograph.mp4" type="video/mp4" class="center">
 </video>
-    <img src="numbers.png" class="center">
-  </div>
-  <div class="column">
-    <img src="judith2.png" class="center">
-    <img src="multiexpose.jpg" class="center">
-    <img src="restore.png" class="center">
-    <img src="mountainskies.jpg">
-    <img src="underwater.jpg">
-  </div>
-  <div class="column">
-    <img src="wedding.jpg">
-    <img src="rocks.jpg">
-    <img src="falls2.jpg">
-    <img src="paris.jpg">
-    <img src="nature.jpg">
-    <img src="mist.jpg">
-    <img src="paris.jpg">
   </div>
 </div>
 </div>
